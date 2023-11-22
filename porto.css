@@ -1,0 +1,492 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: sans-serif;
+    box-sizing: border-box;
+    
+}
+nav ul  {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+    color: rgb(0, 0, 0);
+}
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 40rem;
+    
+
+}
+nav a {
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+}
+.btn {
+    border: none;
+    border-radius:30px;
+    background-color: orange;
+    height: 40px;
+    width: 150px;
+    color:white;
+    margin: 40px;
+    transition: all .2s ease-in-out;
+}
+.btn:hover{
+    background-color: black;
+    color: white;
+
+}
+
+
+header {
+    display: flex;
+    /* background-color: rgb(255, 255, 255); */
+    background-color: white;
+    color: rgb(0, 0, 0);
+    height: 70px;
+    position: fixed;
+    z-index: 1;
+    width: 100%;
+    /* width: 100%; */
+    
+}
+header h1 {
+    padding: 15px;
+    color: black;
+}
+main {
+    background-color: rgb(237, 235, 235);
+    height: 650px;
+    /* width: 100%; */
+}
+.article-nama h1 {
+    font-family: sans-serif;
+
+}
+.article-nama {
+    /* padding: 200px; */
+    font-size:30px;
+}
+.article-bidang {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 13px;
+}
+
+
+.b {
+    color: orange;
+    font-size: 30px;
+}
+.multiType {
+    color: rgb(0, 0, 0);
+    font-size: 60px;
+}
+.article-button {
+    margin-top: 30px;
+}
+.btn1  {
+    background-color: orange;
+    border: none;
+    width: 140px;
+    height: 35px;
+    border-radius: 30px;
+    z-index: 1;
+    overflow: hidden;
+    position: relative;
+    
+}
+.btn1::after{
+    content: '';
+    width: 0;
+    height: 3rem;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-image: linear-gradient(rgb(255, 255, 255) 0%, rgb(255, 255, 255) 100%);
+    display: block;
+    z-index: -1;
+    transition: all .2s ease-in-out;
+    box-shadow: 6px 6px 10px black;
+    
+
+}
+.btn1:hover::after {
+   width: 200px;
+   display: block;
+   color: white;
+    
+}
+.btn1:hover {
+    color: rgb(3, 3, 3);
+}
+.btn2 {
+    background-color: rgb(255, 255, 255);
+    border: none;
+    width: 140px;
+    height: 35px;
+    border-radius: 30px;
+    border: 1px solid black;
+    z-index: 1;
+    overflow: hidden;
+    position: relative;
+}
+.btn2::after{
+    content: '';
+    width: 0;
+    height: 3rem;
+    position: absolute;
+    top: 0;
+    left: 20;
+    background-image: linear-gradient(rgb(0, 0, 0) 0%, rgb(0, 0, 0) 100%);
+    display: block;
+    z-index: -1;
+    transition: all .2s ease-in-out;
+    box-shadow: 6px 6px 10px black;
+    
+
+}
+.btn2:hover::after {
+   width: 200px;
+   display: block;
+   color: rgb(93, 32, 32);
+    
+}
+.btn2:hover {
+    color: rgb(255, 255, 255);
+}
+.article-all {
+    padding: 200px;
+}
+.trapesium {
+    height: 200px;
+}
+.kotak {
+    width: 600px;
+    height: 120px;
+    background-color: rgb(255, 255, 255);
+   box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+    border-radius: 50px;
+    position: absolute;
+    margin-top: -60px;
+    margin-left: 400px;
+}
+.semua {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 25px;
+    margin-top: 40px;
+
+}
+.semua img {
+    width: 50px;
+    border-radius: 50%;
+
+}
+.aside-gambar {
+    display: flex;
+    flex-direction: column;
+}
+#ha{
+    margin-top: -200px;
+    position: absolute;
+    color: white;
+}
+
+
+aside img {
+    width: 500px;
+    /* margin-left: 50px; */
+}
+.pertama {
+    display: flex;
+    justify-content: baseline;
+}
+.pertama p {
+    display: inline-block;
+}
+.spn1 {
+    font-size: 15px;
+    font-family: sans-serif;
+    font-weight: 100;
+}
+.spn2 {
+    font-size: 40px;
+}
+/* .aside-gambar {
+    height: 300rem;
+} */
+html {
+    scroll-behavior: smooth;
+}
+.macam-macam {
+    display: flex;
+    gap: 20px;
+    /* margin-top: 100px;
+    margin-left: 80px; */
+    text-align: center;
+    
+    
+    
+    
+}
+.woo {
+    margin-bottom: 80px;
+}
+.macam h2 {
+    text-align: center;
+    font-size: 50px;
+}
+.macam p {
+    text-align: center;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 22px;
+}
+.macam1 {
+    
+    background-color: rgb(215, 215, 215);
+    width: 300px;
+    height: 100px;
+    box-shadow: 8px 8px 16px rgba(0, 0, 0, 0.2);
+    border-radius: 8px;
+}
+.macam2 {
+    
+    background-color: rgb(215, 215, 215);
+    width: 300px;
+    height: 100px;
+    box-shadow: 8px 8px 16px rgba(0, 0, 0, 0.2);
+    border-radius: 8px;
+}
+.macam3 {
+    
+    background-color: rgb(215, 215, 215);
+    width: 300px;
+    height: 100px;
+    box-shadow: 8px 8px 16px rgba(0, 0, 0, 0.2);
+    border-radius: 8px;
+}
+.macam4 {
+    
+    background-color: rgb(215, 215, 215);
+    width: 300px;
+    height: 100px;
+    box-shadow: 8px 8px 16px rgba(0, 0, 0, 0.2);
+    border-radius: 8px;
+}
+.pilihan {
+    margin-left: 80px;
+    margin-top: 100px;
+    margin-bottom: 300px;
+}
+.macam p {
+    margin-bottom: 50px;
+}
+.macam1 h1 {
+    margin-top: 30px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 25px;
+
+}
+.macam2 h1 {
+    margin-top: 30px;
+    font-size: 25px;
+}
+.macam3 h1 {
+    margin-top: 30px;
+    font-size: 25px;
+}
+.macam4 h1 {
+    margin-top: 30px;
+    font-size: 25px;
+}
+.macam1 {
+    transition: all .3s ease-in-out;
+    cursor: pointer;
+}
+.macam1:hover {
+   margin-top: -50px;
+
+}
+.macam2 {
+    transition: all .3s ease-in-out;
+    cursor: pointer;
+}
+.macam2:hover {
+   margin-top: -50px;
+
+}
+.macam3 {
+    transition: all .3s ease-in-out;
+    cursor: pointer;
+}
+.macam3:hover {
+   margin-top: -50px;
+
+}
+.macam4 {
+    transition: all .3s ease-in-out;
+    cursor: pointer;
+}
+.macam4:hover {
+   margin-top: -50px;
+
+}
+.woo {
+    margin-top: 10px;
+    font-size: 45px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    text-align: center;
+    
+}
+section {
+    /* background-color: #B0A695;
+    background-color: rgb(215, 215, 215);    */
+    height: 50rem;
+    /* margin-top: 300px; */
+}
+.section-gambar {
+    display: flex;
+    gap: 20px;
+    /* margin-left: 80px; */
+    overflow-x: scroll;
+}
+.section-gambar img {
+    width: 500px;
+    
+}
+.section-gambar::-webkit-scrollbar {
+    width: 0px;
+}
+.section-gambar h1 {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: 400;
+    position: absolute;
+}
+
+.akhir {
+    /* background-color: white;
+    box-shadow: 8px 8px 16px rgba(0, 0, 0, 0.2);
+    height: 100px;
+    width: 300px; */
+    display: flex;
+    gap: 20px;
+    /* margin-left:  200px; */
+    margin-top: -120px;
+    position: absolute;
+}
+.akhir1 {
+    background-color: white;
+    box-shadow: 8px 8px 16px rgba(0, 0, 0, 0.2);
+    width:  500px;
+    height:   220px;
+    color: white;
+    /* background-color: rgb(255, 255, 255); */
+    /* background-color: #F3B664; */
+    /* background-color: #45474B; */
+    /* background-color: #001524; */
+    /* background-color: rgb(215, 215, 215); */
+    border-radius: 10px;
+}
+.akhir2 {
+    background-color: white;
+    box-shadow: 8px 8px 16px rgba(0, 0, 0, 0.2);
+    width: 500px;
+    height: 220px;
+    color: white;
+    border-radius: 10px;
+    /* background-color: rgb(215, 215, 215); */
+
+}
+ 
+.ctn1 h1 {
+    position: absolute;
+    margin-top: 200px;
+}
+.skil h1 {
+    margin-left: 165px;
+    margin-bottom: 100px;
+    font-size: 30px;
+    
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    
+}
+.skil img {
+    margin-left: 200px;
+}
+.skil {
+    margin-right: 100px;
+}
+#pp {
+    margin-left: 650px;
+    font-size: 50px;
+}
+
+.skil img {
+    width: 200px ;
+}
+
+.semua-skil {
+    display: flex;
+    
+   
+}
+.wel {
+    display: flex;
+    gap: 20px;
+    margin-left: 200px;
+}
+.selanjutnya {
+    margin-top: 20px;
+    display: flex;
+    gap: 20px;
+    margin-left: 200px;
+    
+}
+.wel img {
+    width: 500px;
+}
+.selanjutnya img {
+    
+    width: 500px;
+}
+#nuy {
+    font-size: 60px;
+    text-align: center;
+    margin-bottom: 100px;
+    margin-top: 300px;
+}
+
+
+footer {
+    background-color: black;
+    height: 700px;
+    margin-top: 300px;
+}
+.footer-isi {
+    font-size: 40px;
+    text-align: center;
+    margin-top: 300px;
+    position: absolute;
+    margin-left: 500px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
