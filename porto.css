@@ -436,13 +436,13 @@ section {
 .wel {
     display: flex;
     gap: 20px;
-    margin-left: 200px;
+    /* margin-left: 200px; */
 }
 .selanjutnya {
     margin-top: 20px;
     display: flex;
     gap: 20px;
-    margin-left: 200px;
+    /* margin-left: 200px; */
     
 }
 .wel img {
