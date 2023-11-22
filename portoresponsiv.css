@@ -21,7 +21,7 @@ header {
     box-sizing: border-box;
 }
 main {
-    width: 100%;
+    width: 1200px;
 }
 nav {
     display: flex;
