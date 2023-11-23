@@ -3,6 +3,7 @@
     margin: 0;
     font-family: sans-serif;
     box-sizing: border-box;
+    background-attachment: fixed;
     
 }
 nav ul  {
@@ -26,7 +27,7 @@ nav a {
 .btn {
     border: none;
     border-radius:30px;
-    background-color: orange;
+    background-color: #EC8F5E;
     height: 40px;
     width: 150px;
     color:white;
@@ -56,10 +57,112 @@ header h1 {
     padding: 15px;
     color: black;
 }
+.nav ul li:hover {
+    background-color: gold;
+}
+.nav ul li {
+    color: white;
+}
+
+header {
+    height: 70px;
+}
+
+header h1 {
+    display: inline-block;
+    padding: 15px 24px;
+}
+
+header h1 a:hover {
+    color: gold;
+}
+
+header ul {
+   
+}
+
+header li {
+    padding: 24px;
+    display: inline-block;
+}
+
+header ul li a:hover {
+    color: gold;
+}
+
+a {
+    text-decoration: none;
+}
+
+.atas {
+    width: 90%;
+    margin: 0 auto;
+    background-color: black;
+    border-bottom-left-radius: 25%;
+    border-bottom-right-radius: 25%;
+}
+
+.atas a {
+    color: white;
+}
+
+.atas:after {
+    content: '';
+    display: block;
+    clear: both;
+}
+
+.mobile-menu {
+    /* float: right; */
+    /* display: none; */
+    padding: 25px;
+   margin-right: 20px;
+}
+
+.mobile-menu:hover {
+    cursor: pointer;
+}
+
+/* #id {
+    display: none;
+} */
+
+.sidebar {
+    position: fixed;
+    top: 0;
+    bottom: 0;
+     */
+   width: 300px;
+    background-color: black;
+    transition: .3s;
+}
+
+.sidebar ul li a {
+    color: white;
+}
+
+.sidebar ul li {    
+    padding: 24px;
+    transition: .3s;
+    transition-property: background-color;
+}
+
+.sidebar ul li:hover {
+    background-color: aqua;
+}
+
+.sidebar ul li a:hover {
+    color: gold;
+}
+
+#check:checked ~ .sidebar {
+    left: 0;
+}
 main {
     background-color: rgb(238, 238, 238);
-    height: 650px;
+    height: 500px;
     /* width: 100%; */
+    
 }
 .article-nama h1 {
     font-family: sans-serif;
